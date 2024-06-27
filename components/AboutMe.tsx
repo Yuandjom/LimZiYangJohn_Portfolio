@@ -21,7 +21,6 @@ const AboutMe = () => {
         />
         <h1 className="text-3xl font-bold mt-5">Lim Zi Yang, John</h1>
       </div>
-
       <div className="max-w-4xl text-center mb-10">
         <p className="text-lg">
           Hello! I'm John, a Final Year Business Analytics and Computer Science Student from Nanyang Technological University. I am passionate software developer with experience in building web applications using modern technologies. I love coding, learning new skills, and going for hackathons. My goal is to create impactful solutions that make a difference.

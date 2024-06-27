@@ -1,5 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Work Experiences", link: "#workexperiences" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -74,32 +75,32 @@ export const projects = [
     id: 1,
     title: "LastCallSG - E-commerce Platform",
     des: "At LastCallSG, we're driven to combat food waste through innovative tech solutions. Our mission is to create a sustainable ecosystem where small actions by online grocery retailer collectively make a significant impact in reducing food waste and promoting environmental sustainability..",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
+    img: "/lastcall.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/aws.png"],
     link: "https://github.com/Yuandjom/LastCallSG",
   },
   {
     id: 2,
-    title: "Ascendo - Mobile App Development",
+    title: "Ascendo - Mobile Work Companion",
     des: "Ascendo is a two-pronged, innovative mobile application aimed at enhancing employee experience and increasing work efficiency through the means of gamification.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    img: "ascendo2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/aws.png"],
     link: "https://github.com/weikangg/Ascendo",
   },
   {
     id: 3,
     title: "GetFit - Social Media Platform",
     des: "One stop social media web application for users who wants to kickstart their fitness routines!",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: "/getfit.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "mongodb.png", "node.png"],
     link: "https://github.com/Yuandjom/SC2006-GETFIT-TeamError202",
   },
   {
     id: 4,
     title: "TechTitans - Career Platform",
     des: "TechTitans aims to bring creative solutions to help aspiring techies to determine their career paths in the tech industry through increasing outreach to the student population. We hope to give users a customized exprience in navigating through their journey to clinch their desired jobs.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: "/techtitans.png",
+    iconLists: ["/re.svg", "/tail.svg", "mongodb.png", "node.png"],
     link: "https://tech-titans-techfest-project.vercel.app/",
   },
 ];
@@ -107,41 +108,17 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Beyond technical skills, John exhibited strong communication and collaboration abilities. He worked effectively within the team, ensuring his contributions were integrated seamlessly with the project objectives. His enthusiasm for learning and problem-solving was evident throughout his internship.",
+    name: "Ayush Batra",
+    title: "Regional Director for Technical Enablement",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
+    name: "Intel",
+    img: "/image.png",
     nameImg: "/cloudName.svg",
   },
   {
@@ -173,31 +150,48 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Data Analyst Intern",
+    desc1: "- Leveraged Python libraries numpy and pandas extensively for data manipulation tasks, integrating various data sources to analyze banking supervisory processes efficiently.",
+    desc2: "- Utilized Tableau to conduct in-depth analysis and visualisation of Fitch credit rating changes, providing actionable insights to stakeholders within the organisation.",
+    desc3: "- Developed Python and Excel VBA scripts to automate manual data entry and validation processes, resulting in a 25% improved workload efficiency and accuracy.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/mas2.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "DevOps Engineer Intern",
+    desc1: "- Administered a multi-node Kubernetes (K8s) cluster for testing the environment independently with Kubeadm",
+    desc2: "- Implemented monitoring and logging using Prometheus and Grafana via Helm Charts for system insights",
+    desc3: "- Developed Ansible automation scripts to enhance workload configuration and deployment efficiency for OneIntel AI projects in a linux environment",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/intel.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Software Engineer Intern - Fullstack",
+    desc1: "- Developed a proof of concept for a one-stop enterprise application kiosk for users within DSO to find all their relevant needs using MongoDB, Express, AngularJS and Node.js",
+    desc2: "- Built event-driven microservices with Apache Kafka, Zookeeper and RESTful microservices with Node.js using Podman containers in Red Hat Enterprise Linux (RHEL)",
+    desc3: "- Deployed dockerised microservice applications into Microsoft Azure DevOps CI/CD pipelines",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/dso.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Technology Risk Intern",
+    desc1: "- Performed IT external audit to analyse business, information systems and other data processing problems to implement and improve computer systems",
+    desc2: "- Assessed and evaluated IT systems to mitigate IT-related business risks",
+    desc3: "- Analysed client requirements, procedures, and problems to improve existing systems and reviewed computer system capabilities, workflow, and scheduling limitations",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/EY.png",
+  },
+  {
+    id: 5,
+    title: "Digitalisation Intern",
+    desc1: "- Developed a visitor management application for the guardhouse to manage and regulate the inflow and outflow of visitors using Microsoft Power App and Power Automate",
+    desc2: "- Leveraged Microsoft Power BI, including DAX, to analyse visitor forms data and create insightful dashboards",
+    desc3: "- Implemented a streamlined multi-level approval workflow, significantly enhancing work efficiency and minimizing manual intervention",
+    className: "md:col-span-2",
+    thumbnail: "/fnn2.png",
   },
 ];
 
