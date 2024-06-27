@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Work Experiences", link: "#workexperiences" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -164,7 +164,7 @@ export const workExperience = [
     desc2: "- Implemented monitoring and logging using Prometheus and Grafana via Helm Charts for system insights",
     desc3: "- Developed Ansible automation scripts to enhance workload configuration and deployment efficiency for OneIntel AI projects in a linux environment",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/intel.png",
+    thumbnail: "/Intel.png",
   },
   {
     id: 3,
